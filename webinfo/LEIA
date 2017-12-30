@@ -1,0 +1,37 @@
+Ferramenta criada pela Equipe 29Security
+Membros: Joas Antonio, Alex Piccon e Carlos Santana
+São Ferramentas básicas para ajudar profissionais de seguranças e estudantes.
+
+#Dnsbruto tutorial
+Pega todos os Subdominios
+chmod 777 dnsbruto.sh
+./dnsbruto.sh "site"
+jogar para um arquivo ./dnsbruto.sh "site" > relatorio
+
+#Dnsbrutoip tutorial
+Só pega o endereço ip 
+chmod 777 dnsbrutoip.sh
+./dnsbrutoip.sh "ip"
+jogar para um arquivo ./dnsbrutoip.sh "ip" > relatorio
+
+#Dnsreverse tutorial
+Pega os subdominios de determinados Ip
+chmod 777 dnsreverse.sh
+./dnsreverse.sh "ip"
+Jogar para um arquivo ./dnsreverse.sh "ip" > relatorio
+
+#Whois tutorial
+Puxa informações sobre o dominio desejado
+chmod 777 whois.py
+./whois.py "site"
+Jogar para um arquivo ./whois.py "site" > relatorio
+
+#DIRBRUTUS
+procura por diretorios em um determinado dominio
+chmod 777 dirbrutus.py
+./dirbrutus.py "site" "wordlist" (JA VEM UMA SUPER WORDLIST POR PADRÃO)
+
+#portscan
+Veja se uma determinada porta esta aberta em algum host
+chmod 775 portscan.py
+./portscan.py "IP"
